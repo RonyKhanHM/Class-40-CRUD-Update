@@ -1,0 +1,9 @@
+    ---------CRUD----------
+    C=>INSERT INTO students (name, roll, class, phone, email, address) VALUES('Masud Rana', 563247, 'Kamil in BBA', '+880 1658 989562', 'Masudrana@gamil.com', 'Haripu, Thakurgaon')
+
+    R=>SELECT * FROM students (SELECT * FROM students WHERE id = 7)
+    new mysqli('host','user','password','database_name')
+
+    U=> "UPDATE students SET name = 'Rony Khan HM', roll = 185428, class = 'Diploma in CSE', phone = '+8801567989230', email = 'Ronykhanhm3@gmail.com', address = 'Khatalbagan, Dhanmondi' WHERE id = 3";
+
+    D=> DELETE FROM students WHERE id = 1;
